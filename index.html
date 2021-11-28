@@ -1,25 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta
-        name="Description" 
-        content="My first project"
-    />
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="robots" content="index, follow"/>
+    <meta name="Description" content="My first project" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="index, follow" />
     <link rel="icon" href="img/фавикон.jpg">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <style>
+        .title {
+            display: inline-block;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: italic;
+            position: relative;
+            font-size: 20rem;
+            transition: all;
+        }
+
+        .titleFront {
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            transform: translate(0, 0);
+            animation: downLeft 250ms infinite ease-in;
+            color: rgba(255, 0, 0, 0.4);
+        }
+
+        .titleBack {
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            transform: translate(0, 0);
+            animation: topRigth 350ms infinite ease-in;
+            color: rgba(0, 0, 255, 0.4);
+        }
+
+        @keyframes downLeft {
+            from {
+                transform: translate(0, 0);
+                color: rgba(255, 0, 0, 0.4);
+
+            }
+
+            to {
+                transform: translate(-2%, 5%);
+                color: rgba(255, 0, 0, 0);
+            }
+        }
+
+        @keyframes topRigth {
+            from {
+                transform: translate(0, 0);
+                color: rgba(0, 0, 255, 0.4);
+            }
+
+            to {
+                transform: translate(2%, -5%);
+                color: rgba(0, 0, 255, 0);
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <h1>I want to fuck ur mama realy hard</h1>
-    <h2>So, if you want i could describe it for you</h2>
-    <p> A link to my favorite <a href="https://ru.wiktionary.org/wiki/%D0%BF%D0%B8%D0%B4%D0%BE%D1%80" title="you are gay" target="_blanc"> website</a> .</p>
-    <img
-        width="350"
-        height="350"
-        src="img/черный властелин.jpg" alt="">
-        <a href="https://www.youtube.com/watch?v=CsfCnJA4bw8">Strange things</a>
+    <h3 class="title">
+        <p class="titleFront">ТЫ ПИДAР!</p>
+        <p class="titleBack">ТЫ ПИДAР!</p>
+    </h3>
 </body>
+
 </html>
