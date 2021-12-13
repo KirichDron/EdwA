@@ -1,0 +1,19 @@
+h2 {
+    color: darkblue;
+}
+
+.first-class h2{
+    color: darkorange;
+}
+
+.my-list + ul{
+    list-style: none;
+}
+
+.spisok a {
+    color: black;
+}
+
+.spisok li {
+    color: brown;
+}
