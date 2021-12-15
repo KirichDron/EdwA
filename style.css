@@ -1,19 +1,15 @@
-h2 {
-    color: darkblue;
+html {
+    font-size: 62.5%;
 }
 
-.first-class h2{
-    color: darkorange;
-}
-
-.my-list + ul{
-    list-style: none;
-}
-
-.spisok a {
-    color: black;
-}
-
-.spisok li {
-    color: brown;
+button {
+    margin: 15rem;
+    padding: 10rem;
+    border-color: blue;
+    border-width: 0.5rem;
+    border-bottom-left-radius: 9rem;
+    border-top-right-radius: 9rem;
+    font-size: 2rem;
+    background: cadetblue;
+    color: chartreuse;
 }
