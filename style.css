@@ -8,34 +8,43 @@ html {
     font-size: 62.5%;
 }
 
+.clear {
+    clear: both;
+}
+
 h1 {
-    text-align: center;
-font-size: 8rem;
-margin: 4rem;
-background: crimson;
-}
-
-p {
-    font-size: 6rem;
-    color: coral;
-    margin: 4rem;
-    text-align-last: center;
-}
-
-a {
-    display: inline-block;
-    font-size: 4rem;
-    margin: 1rem;
-    padding: 1.5rem;
-    text-align: center;
-    background: red;
-}
-div{
-  background:rgb(192, 65, 154);
-  padding: 1.8rem;
+    font-size: 3rem;
 }
 
 h2 {
-    text-align: center;
-    font-size: 5rem;
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(57, 46, 82);
+    font-size: 2rem;
+}
+
+nav {
+    background: chocolate;
+    padding: 2rem;
+}
+
+nav h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    margin: 0rem 3rem;
 }
