@@ -12,39 +12,83 @@ html {
     clear: both;
 }
 
-h1 {
-    font-size: 3rem;
+#logo {
+    font-size: 4rem;
+    font: gilroy;
 }
 
 h2 {
-    font-size: 2.8rem;
-}
-
-h3 {
-    font-size: 2rem;
-}
-
-a {
-    text-decoration: none;
-    color: rgb(57, 46, 82);
-    font-size: 2rem;
+    font-size: 4rem;
+    text-align: center;
 }
 
 nav {
-    background: chocolate;
+    width: 100%;
     padding: 2rem;
+    text-decoration: none;
+    background: #ffebcd;
 }
 
-nav h1 {
+nav h1{
     float: left;
 }
 
-nav ul {
+nav ul{
+	list-style: none;
+}
+
+nav li{
+    margin: 1rem 4rem;
     float: right;
+}
+
+a{
+    color: rgb(72, 136, 77);
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+
+.fst_scrn{
+    background-color: #ffebcd;
+    background-image: url(img/tree.png);
+    background-size: 100% 100%;
+}
+
+.search_more {
+    width: 35%;
+    padding: 4rem;
+    font-size: 2rem;
+    position: relative;
+    left: 2rem;
+    color: lightgray;
+}
+
+.search_more ul {
     list-style: none;
 }
 
-nav li {
-    float: left;
-    margin: 0rem 3rem;
+.first_left_1 {
+    padding: 2rem;
+    text-shadow: black; 
 }
+.first_left_2 {
+    padding: 2rem;
+}
+
+.search {
+    margin: 2rem;
+}
+
+button {
+    padding: 2rem 6rem;
+    margin: 2rem 2rem;
+    background-color: rgb(66, 64, 41);
+    color: lavenderblush;
+    font-size: 2rem;
+}
+
+.the_best_for {
+    float: right;
+}
+
